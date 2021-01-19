@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="General">
+        <menu>
+
+            <item
+                android:id="@+id/books"
+                android:icon="@drawable/ic_baseline_menu_book_24"
+                android:title="books" />
+            <item
+                android:id="@+id/addbook"
+                android:icon="@drawable/ic_baseline_add_24"
+                android:title="Add book" />
+            <item
+                android:id="@+id/sync_books"
+                android:icon="@drawable/ic_baseline_sync_24"
+                android:title="Sync" />
+
+        </menu>
+
+
+    </item>
+
+    <item android:title="Support">
+        <menu>
+            <item
+                android:id="@+id/rating"
+                android:icon="@drawable/ic_baseline_star_rate_24"
+                android:title="Rate App" />
+            <item
+                android:id="@+id/shareapp"
+                android:icon="@drawable/ic_baseline_share_24"
+                android:title="Share App" />
+
+        </menu>
+
+    </item>
+
+    <item android:title="Logout">
+        <menu>
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/ic_baseline_support_24"
+                android:title="Logout" />
+
+        </menu>
+
+
+
+    </item>
+</menu>

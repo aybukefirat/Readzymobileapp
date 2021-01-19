@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@drawable/cover">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="390dp"
+            android:layout_height="27dp"
+            android:text="Readzy Mobile App"
+            android:textColor="#3F51B5"
+            android:textSize="24sp"
+            tools:layout_editor_absoluteX="10dp"
+            tools:layout_editor_absoluteY="30dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="386dp"
+            android:layout_height="25dp"
+            android:text="Save your books!"
+            android:textColor="#009688"
+            android:textSize="18sp"
+            tools:layout_editor_absoluteX="9dp"
+            tools:layout_editor_absoluteY="68dp" />
+
+        <TextView
+            android:id="@+id/username"
+            android:layout_width="380dp"
+            android:layout_height="27dp"
+            android:text="Aybuke Fırat"
+            android:textColor="#070707"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="121dp" />
+
+        <TextView
+            android:id="@+id/useremail"
+            android:layout_width="389dp"
+            android:layout_height="27dp"
+            android:text="aybukefirat@mail.com"
+            android:textColor="#151515"
+            tools:layout_editor_absoluteX="11dp"
+            tools:layout_editor_absoluteY="148dp" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>
